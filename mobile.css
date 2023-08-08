@@ -172,3 +172,40 @@ section {
   font-size: 30px;
   line-height: 38px;
 }
+
+.footer__navigation {
+  display: none;
+}
+.footer {
+  gap: 48px;
+}
+
+.footer__content-up {
+  align-items: start;
+}
+.mobile__footer-navigation {
+  display: block;
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 32px;
+}
+.mobile__footer-content {
+  width: 155px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.mobile__footer-navigation a {
+  color: #eaecf0;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+}
+.footer__content-down {
+  padding-top: 32px;
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 12px;
+  /* justify-content: space-between; */
+  align-items: start;
+}
